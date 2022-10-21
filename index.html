@@ -8,7 +8,8 @@
   <meta name="author" content="">
   <link rel="icon" href="../../../../favicon.ico">
 
-  <title>Pick Up PC</title>
+  <title>Pick Up Park City</title>
+  <link rel="icon" type="image/x-icon" href="/Images/logo.png">
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
@@ -23,7 +24,7 @@
 <body>
 
   <nav class="navbar navbar-expand-md navbar-dark fixed-top " style="background-color:#218643;">
-    <a class="navbar-brand" href="#">Pick Up PC</a>
+    <a class="navbar-brand" href="#" style="font-family: Century Schoolbook, serif;">Pick Up Park City</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
       aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -32,24 +33,26 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#" style="font-family: Century Schoolbook, serif;">Home <span
+              class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#about">About Us</a>
+          <a class="nav-link" href="#about" style="font-family: Century Schoolbook, serif;">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="calendarPage.html">Event Calender</a>
+          <a class="nav-link" href="#calendar" style="font-family: Century Schoolbook, serif;">Event Calender</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#bring">What To Bring</a>
+          <a class="nav-link" href="#bring" style="font-family: Century Schoolbook, serif;">What To Bring</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact" style="font-family: Century Schoolbook, serif;">Contact Us</a>
         </li>
     </div>
     </li>
     </ul>
     </div>
   </nav>
-
-
 
   <main role="main">
     <div class="container" style="padding-top: 5.5%;">
@@ -69,17 +72,17 @@
             <img class="d-block w-100" src="Images/weber_SM.jpg" alt="Fourth slide">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <!-- <span class="visually-hidden">Previous</span> -->
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <!-- <span class="sr-only">Next</span> -->
         </button>
-      
-    </div>
-
+      </div>
     </div>
 
     <div class="container">
@@ -94,9 +97,10 @@
 
         </div>
       </div>
+
       <div class="row">
         <div class="col-md-12">
-          <h2 id="bring" ;> Our Goals</h2>
+          <h2 id="about";> Our Goals</h2>
           <ol class="p list-group list-group-numbered">
             <li>Establish collaborative relationships with Park City Municipal, Summit County, The Chamber of Commerce,
               Recycle Utah, and other educational institutions.</li>
@@ -110,12 +114,23 @@
 
         </div>
       </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="calendar" ;> Event Calendar</h2>
+          <p>Google Calendar embedded here</p>
+
+        </div>
+      </div>
+
       <div class="row">
         <div class="col-md-12">
           <h2 id="bring"> What to Bring</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-            condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
-            Donec sed odio dui. </p>
+          <ul class="p list-group">
+            <li>boots</li>
+            <li>gloves</li>
+            <li>water</li>
+          </ul>
 
         </div>
       </div>
@@ -123,35 +138,34 @@
       <hr>
 
     </div> <!-- /container -->
-      
-    <div class="container">
+
+    <div class="container text-center">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4">
-          <h2>Contact Us</h2>
-          <p>Pearson Ehrich</p>
-          <p>pehrich23@pcstudents.us</p>
-          <p>Other lady</p>
-          <p>otherlady@gmail.com</p>
+        <div class="col-md-6">
+          <h2 id="contact">Contact Us</h2>
+          <p>Email: pickuppc@recycleutah.org</p>
+          <p>Phone: (435) 649-9698</p>
         </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-            condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
-            Donec sed odio dui. </p>
 
+        <div class="col-md-6">
+          <h2>Visit Us</h2>
+          <p>1951 Woodbine Way</p>
+          <p>P.O. Box 682998</p>
+          <p>Park City, UT 84068</p>
         </div>
-        <div class="col-md-4">
+
+        <!--<div class="col-md-4">
           <h2>Heading</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta
             felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
             massa justo sit amet risus.</p>
         </div>
-      </div>
+      </div> -->
 
-      <hr>
+        <hr>
 
-    </div> <!-- /container -->
+      </div> <!-- /container -->
 
   </main>
 
