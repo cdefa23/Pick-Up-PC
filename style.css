@@ -21,3 +21,35 @@ li{
 
 /* What the alternate background color will be */
 /* background-color: #F2F7F7 */
+
+/* .googleCalendar{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    padding-bottom: 50%;
+  }
+  
+  .googleCalendar iframe{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  } */
+  .responsiveCal {
+    position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
+    }
+     
+    .responsiveCal iframe {
+    position: absolute; top:0; left: 0; width: 100%; height: 100%;
+    }
+
+    @media all and (min-width: 768px) {
+      .deskContent {display:block;}
+      .phoneContent {display:none;}
+  }
+  
+  @media all and (max-width: 767px) {
+      .deskContent {display:none;}
+      .phoneContent {display:block;}
+  }
